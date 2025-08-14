@@ -6,6 +6,7 @@ media = 0.0
 
 for nota in notas:
     media += nota
+    ##media = media + nota
 
 media = media/notas.__len__()
 
